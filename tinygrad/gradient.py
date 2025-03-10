@@ -1,6 +1,6 @@
 from typing import cast, Iterator
 import math, functools, dataclasses
-from tinygrad.dtype import dtypes, sum_acc_dtype
+from tinygrad.dtype import dtypes
 from tinygrad.ops import UOp, PatternMatcher, UPat, Ops, all_metadata
 from tinygrad.helpers import argsort
 

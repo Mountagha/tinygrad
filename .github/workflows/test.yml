@@ -9,6 +9,7 @@ on:
   push:
     branches:
       - master
+      - ExpandCastRemove
   pull_request:
   workflow_dispatch:
 
