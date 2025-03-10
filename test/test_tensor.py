@@ -888,7 +888,6 @@ class TestExpand(unittest.TestCase):
         assert t.dtype == dtypes.int8
         np.testing.assert_equal(t.numpy(), np.full((6, 2, 0), 12, dtype=np.int8))
 
-
     def test_expand_dtype_uint8(self):
         t = Tensor.full((1, 2, 0), 12, dtype=dtypes.uint8).expand((6, 2, 0))
         assert t.dtype == dtypes.uint8
